@@ -217,31 +217,6 @@ vector<int> shortestPath(int srcNode,int lastNode) {
 //         res[2] = cnt;
 //         data.push_back(res);
 //     }
-    
-//     sort(data.begin(),data.end(),comp2);
-//     vis[V]={0};
-//     // for(int i=0;i<data.size();i++){
-//     //     for(int j=0;j<data[i].size();j++){
-//     //         cout<<data[i][j]<<" ";
-//     //     }
-//     //     cout<<endl;
-//     // }
-    
-//     for(int i=0;i<data.size();i++){
-//         if(data[i][0]==1){
-//             continue;
-//         }
-//         vector<int> path;
-//         path = shortestPath(srcNode,data[i][0]);
-//         for(int j=0;j<path.size()-1;j++){
-//             cout<<path[j]<<"-> ";
-//             if(vis[path[j]]==0){
-//                 vis[path[j]]=1;
-//             }
-//         }
-//         srcNode = data[i][1];
-//     }
-// }
 
 // Gives the total Distance travelled by the van    ->  O(n)
 int TotalDistance(vector<pair<int,int>> FinalList){
